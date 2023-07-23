@@ -1,9 +1,9 @@
-# deep-learning-challenge
-
-<html class="" dir="ltr" lang="en"><head>
+<html class="" dir="ltr" lang="en">
 <script src="https://cdn.cookielaw.org/consent/361df3af-d1f9-49b0-bece-f1622873f2ca/OtAutoBlock.js" type="text/javascript"></script>
+<script src="https://cdn.cookielaw.org/consent/361df3af-d1f9-49b0-bece-f1622873f2ca/otSDKStub.js" type="text/javascript" data-domain-script="361df3af-d1f9-49b0-bece-f1622873f2ca"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-XXN50SC2TH" async=""></script>
 <body class="with-left-side course-menu-expanded with-right-side assignments primary-nav-expanded full-width context-course_3251 responsive_student_grades_page webkit chrome no-touch">
-  <h1 class="title">Module 21 Challenge  </h1>
+  <h1 class="title">Module 21 Challenge - deep-learning-challenge </h1>
   <h3>Background</h3>
   <p>The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.</p>
   <p>From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:</p>
