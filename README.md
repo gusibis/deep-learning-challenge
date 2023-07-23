@@ -32,8 +32,8 @@
   </ul>
   <h3>Before You Begin</h3>
   <div class="content-section callout important title-above"><strong class="blockquote-title">important</strong><div>
-
-    <p>The instructions below are now updated to use Google Colab for this assignment instead of Jupyter Notebook. If you have already started this assignment using a Jupyter Notebook then you can continue to use Jupyter instead of Google Colab.</p>
+    <p>The instructions below are now updated to use Google Colab for this assignment instead of Jupyter Notebook. If you have already started this assignment using a Jupyter Notebook then you can continue to use   Jupyter instead of Google Colab.
+    </p>
   </div></div>
   <ol>
     <li>
@@ -197,75 +197,6 @@
     <li>
       <p>Push the added files to GitHub.</p>
     </li>
-  </ol>
-  <h3>Requirements</h3>
-  <h4>Preprocess the Data (30 points)</h4>
-  <ul>
-    <li>Create a dataframe containing the <code>charity_data.csv</code> data , and identify the target and feature variables in the dataset (2 points)</li>
-    <li>Drop the <code>EIN</code> and <code>NAME</code> columns (2 points)</li>
-    <li>Determine the number of unique values in each column (2 points)</li>
-    <li>For columns with more than 10 unique values, determine the number of data points for each unique value (4 points)</li>
-    <li>Create a new value called <code>Other</code> that contains rare categorical variables (5 points)</li>
-    <li>Create a feature array, <code>X</code>, and a target array, <code>y</code> by using the preprocessed data (5 points)</li>
-    <li>Split the preprocessed data into training and testing datasets (5 points)</li>
-    <li>Scale the data by using a <code>StandardScaler</code> that has been fitted to the training data (5 points)</li>
-  </ul>
-  <h4>Compile, Train and Evaluate the Model (20 points)</h4>
-  <ul>
-    <li>Create a neural network model with a defined number of input features and nodes for each layer (4 points)</li>
-    <li>Create hidden layers and an output layer with appropriate activation functions (4 points)</li>
-    <li>Check the structure of the model (2 points)</li>
-    <li>Compile and train the model (4 points)</li>
-    <li>Evaluate the model using the test data to determine the loss and accuracy (4 points)</li>
-    <li>Export your results to an HDF5 file named <code>AlphabetSoupCharity.h5</code> (2 points)</li>
-  </ul>
-  <h4>Optimize the Model (20 points)</h4>
-  <ul>
-    <li>Repeat the preprocessing steps in a new Jupyter notebook (4 points)</li>
-    <li>Create a new neural network model, implementing at least 3 model optimization methods (15 points)</li>
-    <li>Save and export your results to an HDF5 file named <code>AlphabetSoupCharity_Optimization.h5</code> (1 point)</li>
-  </ul>
-  <h4>Write a Report on the Neural Network Model (30 points)</h4>
-  <ul>
-    <li>Write an analysis that includes a title and multiple sections, labeled with headers and subheaders (4 points)</li>
-    <li>Format images in the report so that they display correction (2)</li>
-    <li>Explain the purpose of the analysis (4)</li>
-    <li>Answer all 6 questions in the results section (10)</li>
-    <li>Summarize the overall results of your model (4)</li>
-    <li>Describe how you could use a different model to solve the same problem, and explain why you would use that model (6)</li>
-  </ul>
-  <h3>Grading</h3>
-  <p>This assignment will be evaluated against the requirements and assigned a grade according to the following table:</p>
-  <div class="table-div"><table border="0">
-    <thead>
-      <tr class="acting-th">
-        <th>Grade</th>
-        <th>Points</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>A (+/-)</td>
-        <td>90+</td>
-      </tr>
-      <tr>
-        <td>B (+/-)</td>
-        <td>80–89</td>
-      </tr>
-      <tr>
-        <td>C (+/-)</td>
-        <td>70–79</td>
-      </tr>
-      <tr>
-        <td>D (+/-)</td>
-        <td>60–69</td>
-      </tr>
-      <tr>
-        <td>F (+/-)</td>
-        <td>&lt; 60</td>
-      </tr>
-    </tbody>
-  </table></div>
-    
+  </ol>   
 
 </body></html>
