@@ -1,6 +1,9 @@
 # deep-learning-challenge
 
-<html class="" dir="ltr" lang="en"><head><script src="https://cdn.cookielaw.org/consent/361df3af-d1f9-49b0-bece-f1622873f2ca/OtAutoBlock.js" type="text/javascript">
+<html class="" dir="ltr" lang="en"><head>
+<script src="https://cdn.cookielaw.org/consent/361df3af-d1f9-49b0-bece-f1622873f2ca/OtAutoBlock.js" type="text/javascript">
+
+</script>
 <body class="with-left-side course-menu-expanded with-right-side assignments primary-nav-expanded full-width context-course_3251 responsive_student_grades_page webkit chrome no-touch">
   <h1 class="title">Module 21 Challenge  </h1>
   <h3>Background</h3>
