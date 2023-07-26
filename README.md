@@ -207,7 +207,7 @@
   </ol>   
 <p> 
     The purpose of this review it to attempt to find a model that would yield a predictoin for the highest number of successful applicants for Alphabet soup. 
-    Columns"EIN" and "NAME" were removed fromt the dataset. The Target variable chosen was "IS_SUCCESSFUL" because the name suggests the results are verified, it is also numeric. The rest of the columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT) are teh feature variables. I tested with different random_states and also with different number of epochs and results were similar but I got better results with current values. I also received a message stating that .h5 files are considered legacy and the library suggested to save it as .keras. I did both. 
+    Columns"EIN" and "NAME" were removed fromt the dataset. The Target variable chosen was "IS_SUCCESSFUL" because the name suggests the results are verified, it is also numeric. The rest of the columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT) are teh feature variables. I tested with different random_states and also with different number of epochs and results were similar but I got better results with current values. I also received a message stating that .h5 files are considered legacy and the library suggested to save it as .keras. Using activation PReLU in the Output layer yielded worse results than sigmoid
 
 
 </p>
