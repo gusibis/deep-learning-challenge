@@ -169,16 +169,22 @@
       <p>Data Preprocessing</p>
       <ul>
         <li>What variable(s) are the target(s) for your model?</li>
+        <p>The target variable is the "IS_SUCCESSFUL"</p>
         <li>What variable(s) are the features for your model?</li>
+        <p>All columns except for "IS_SUCCESSFUL", "NAME", and "EIN" </p>
         <li>What variable(s) should be removed from the input data because they are neither targets nor features?</li>
+        <p>Variables "NAME", and "EIN" were removed, these were not numeric and irrelevant.</p>
       </ul>
     </li>
     <li>
       <p>Compiling, Training, and Evaluating the Model</p>
       <ul>
         <li>How many neurons, layers, and activation functions did you select for your neural network model, and why?</li>
+            <p>I chose 3 hidden layers with 12,24 and 36 neurons with no particular reason other than testing since I am new to machine learning. Used 2 activation function, 'RELU' and 'SIGMOID'</p>
         <li>Were you able to achieve the target model performance?</li>
+            <p>The target was 75% accuracy wich I did not achieve, but the results were close </p>
         <li>What steps did you take in your attempts to increase model performance?</li>
+        <p>I increased the number of hidden layers to 3, also increased the number of epochs to 800 as well as testing with differnet cutofs, 250, 500 and 750</p>
       </ul>
     </li>
   </ul>
@@ -199,5 +205,11 @@
       <p>Push the added files to GitHub.</p>
     </li>
   </ol>   
+<p> 
+    The purpose of this review it to attempt to find a model that would yield a predictoin for the highest number of successful applicants for Alphabet soup. 
+    Columns"EIN" and "NAME" were removed fromt the dataset. The Target variable chosen was "IS_SUCCESSFUL" because the name suggests the results are verified, it is also numeric. The rest of the columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT) are teh feature variables. I tested with different random_states and also with different number of epochs and results were similar but I got better results with current values. I also received a message stating that .h5 files are considered legacy and the library suggested to save it as .keras. I did both. 
 
+
+</p>
+  
 </body></html>
