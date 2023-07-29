@@ -212,9 +212,9 @@
     Using 2 hidden layers with Relu, PReLU as the Output layer, hidden layers values 12,24,48<br>
     268/268 - 1s - loss: 0.6315 - accuracy: 0.7368 - 692ms/epoch - 3ms/step<br>
     Loss: 0.6315085291862488, Accuracy: 0.7367929816246033</p>
-<p>--
+<p>
     '''Best results considering loos/accuracy '''<br>
-    Using 2 hidden layers with Relu, sigmoid as outter layer, hidden layers values 12,24,48<br>
+    --Using 2 hidden layers with Relu, sigmoid as outter layer, hidden layers values 12,24,48<br>
     268/268 - 0s - loss: 0.5572 - accuracy: 0.7368 - 263ms/epoch - 981us/step<br>
     Loss: 0.5571669936180115, Accuracy: 0.7367929816246033</p>
 <p>--
@@ -225,18 +225,18 @@
     Using a third hidden layer with LeakyReLU, softmax as Output layer, hidden layers values 12,24,48<br>
     268/268 - 0s - loss: 0.5609 - accuracy: 0.5349 - 236ms/epoch - 882us/step<br>
     Loss: 0.5608648657798767, Accuracy: 0.5349271297454834</p>
-<p>--
+<p>
     '''Best result accuracy only'''<br>
-    usiUsingng 2 hidden layers with Relu a third hidden layer with LeakyReLU, sigmoid as outter layer, hidden layers values 24,48,96<br>   
+    --Using 2 hidden layers with Relu a third hidden layer with LeakyReLU, sigmoid as outter layer, hidden layers values 24,48,96<br>   
     268/268 - 0s - loss: 0.6040 - accuracy: 0.7392 - 262ms/epoch - 977us/step<br>
     Loss: 0.6040363311767578, Accuracy: 0.7392419576644897</p>
 <p>--
     Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 24,48,96<br>
     268/268 - 0s - loss: 0.6273 - accuracy: 0.7366 - 417ms/epoch - 2ms/step<br>
     Loss: 0.6273306608200073, Accuracy: 0.7365597486495972</p>
-<p>--
+<p>
     '''Possibly the best config'''<br>
-    Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 2, 4, 6<br>
+    --Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 2, 4, 6<br>
     268/268 - 0s - loss: 0.5534 - accuracy: 0.7327 - 430ms/epoch - 2ms/step<br>
     Loss: 0.5534052848815918, Accuracy: 0.7327113747596741</p>
 </p>--
