@@ -239,7 +239,8 @@
     --Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 2, 4, 6<br>
     268/268 - 0s - loss: 0.5534 - accuracy: 0.7327 - 430ms/epoch - 2ms/step<br>
     Loss: 0.5534052848815918, Accuracy: 0.7327113747596741</p>
-</p>I received a warning stating that ".h5" files are considered legacy and the library suggested to save it as ".keras"</p>
+</p>I received a warning stating that ".h5" files are considered legacy and the library suggested to save it as ".keras"<br>
+    Started the project in Jupiter and alos uploaded one of the configs to google colab.</p>
 
   
 </body></html>
