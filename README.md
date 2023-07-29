@@ -207,7 +207,42 @@
   </ol>   
 <p> 
     The purpose of this review it to attempt to find a model that would yield a predictoin for the highest number of successful applicants for Alphabet soup. 
-    Columns"EIN" and "NAME" were removed fromt the dataset. The Target variable chosen was "IS_SUCCESSFUL" because the name suggests the results are verified, it is also numeric. The rest of the columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT) are teh feature variables. I tested with different random_states and also with different number of epochs and results were similar but I got better results with current values. I also received a message stating that .h5 files are considered legacy and the library suggested to save it as .keras. Using activation PReLU in the Output layer yielded worse results than sigmoid with a loss of 0.6315 and accuracy of 0.7368 versus sigmoid with a loss: 0.5665 - accuracy: 0.7378. 780 epochs yielded better results with loss: 0.5614  and  accuracy: 0.7378
+    Columns"EIN" and "NAME" were removed fromt the dataset. The Target variable chosen was "IS_SUCCESSFUL" because the name suggests the results are verified, it is also numeric. The rest of the columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT) are the feature variables. I tested with different random_states and also with different number of epochs. Also changed the hidden layers and values with the below results. 
+    ---------------------------------------------------------------------------------------------------------------------------
+    Using 2 hidden layers with Relu, PReLU as the Output layer, hidden layers values 12,24,48 
+    268/268 - 1s - loss: 0.6315 - accuracy: 0.7368 - 692ms/epoch - 3ms/step
+    Loss: 0.6315085291862488, Accuracy: 0.7367929816246033
+    ---------------------------------------------------------------------------------------------------------------------------
+    '''Best results considering loos/accuracy '''
+    Using 2 hidden layers with Relu, sigmoid as outter layer, hidden layers values 12,24,48   
+    268/268 - 0s - loss: 0.5572 - accuracy: 0.7368 - 263ms/epoch - 981us/step
+    Loss: 0.5571669936180115, Accuracy: 0.7367929816246033
+    ---------------------------------------------------------------------------------------------------------------------------
+    Using 2 hidden layers with Relu a third hidden layer with LeakyReLU, sigmoid as Output layer, hidden layers values 12,24,48 
+    268/268 - 0s - loss: 0.5608 - accuracy: 0.7388 - 249ms/epoch - 928us/step
+    Loss: 0.5607810020446777, Accuracy: 0.7387754917144775
+    ---------------------------------------------------------------------------------------------------------------------------
+    Using a third hidden layer with LeakyReLU, softmax as Output layer, hidden layers values 12,24,48 
+    268/268 - 0s - loss: 0.5609 - accuracy: 0.5349 - 236ms/epoch - 882us/step
+    Loss: 0.5608648657798767, Accuracy: 0.5349271297454834
+    ---------------------------------------------------------------------------------------------------------------------------
+    '''Best result accuracy only'''
+    usiUsingng 2 hidden layers with Relu a third hidden layer with LeakyReLU, sigmoid as outter layer, hidden layers values 24,48,96   
+    268/268 - 0s - loss: 0.6040 - accuracy: 0.7392 - 262ms/epoch - 977us/step
+    Loss: 0.6040363311767578, Accuracy: 0.7392419576644897
+    ---------------------------------------------------------------------------------------------------------------------------
+    Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 24,48,96 
+    268/268 - 0s - loss: 0.6273 - accuracy: 0.7366 - 417ms/epoch - 2ms/step
+    Loss: 0.6273306608200073, Accuracy: 0.7365597486495972
+    ---------------------------------------------------------------------------------------------------------------------------
+    '''Possibly the best config'''
+    Using 3 hidden layers with Relu, sigmoid as outter layer, hidden layers values 2, 4, 6
+    268/268 - 0s - loss: 0.5534 - accuracy: 0.7327 - 430ms/epoch - 2ms/step
+    Loss: 0.5534052848815918, Accuracy: 0.7327113747596741
+    ---------------------------------------------------------------------------------------------------------------------------
+    
+    I also received a warning stating that ".h5" files are considered legacy and the library suggested to save it as ".keras"
+
 
 
 </p>
